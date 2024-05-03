@@ -27,6 +27,7 @@ asdf install poetry 1.8.2
 
 ## How to start development
 
-Take the following two steps to start your development.
+Take the following steps to start your development.
 1. Edit pyproject.toml, e.g., rename the project name.
 2. Run `poetry install --no-root` to install some common libraries.
+3. [Optional] Run `git config commit.template .gitmessage` to use gitmessage for commit.
